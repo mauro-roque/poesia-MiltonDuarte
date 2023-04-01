@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root {
+    --font_padrao:'arial','Helvetica', 'sans-serif';
+}
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    
+}
+body > p {
+    font-family: var(--font_padrao);
+}
+header {
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 0px 2px 5px #00000050;
+}
+header > h1 {
+    color: white;
+    font-family: var(--font_padrao);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+header > p {
+    color: white;
+    font-family: var(--font_padrao);
+    font-size: medium; 
+}
+#recanto {
+    color: white;
+    text-decoration: none;
+}
+section {
+    position: relative;
+}
+#padraotop {
+    font-family: var(--font_padrao);
+    font-style: italic;
+    font-size: 50px;
+    height: auto;
+    width: 700px;
+    padding: 40px 0px 5px 50px;
+}
+.padrao {
+    font-family: var(--font_padrao);
+    font-style: italic;
+    font-size: 50px;
+    height: auto;
+    width: 700px;
+    padding: 0px 0px 5px 30px;
+}
+.padrao1 {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-family: var(--font_padrao);
+    font-style: italic;
+    font-size: 50px;
+    border-radius: 5px;
+    height: auto;
+    width: 700px;
+    margin: auto 0px auto 50px;
+
+    position: absolute;
+    left: auto;
+    top: 183.000px;
+}
+.padrao2 {
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-family: var(--font_padrao);
+    font-style: italic;
+    font-size: 50px;
+    border-radius: 5px;
+    height: auto;
+    width: 700px;
+    margin: auto 0px auto 50px;
+
+    position: absolute;
+    left: auto;
+    top: 183.000px;
+}
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    height: 1100px;
+    margin: 50px auto 50px auto;
+}
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    height: 1100px;
+    margin: 50px auto 50px auto;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    font-family:var(--font_padrao);
+    font-weight: lighter;
+}
+p > a {
+    color: white;
+    text-decoration: none;
+}
